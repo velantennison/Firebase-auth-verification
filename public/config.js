@@ -13,18 +13,11 @@
  */
 
 var config = {
-  apiKey: "AIzaSyAE0mf4cZdoRVMFT1oxXYxLejQ0DgDy4uU",
-    authDomain: "otpmessagesent.firebaseapp.com",
-    databaseURL: "https://otpmessagesent-default-rtdb.firebaseio.com",
-    projectId: "otpmessagesent",
-    storageBucket: "otpmessagesent.appspot.com",
-    messagingSenderId: "706316014973",
-    appId: "1:706316014973:web:5167ede713913096632814",
-    measurementId: "G-694WGXX9MD"
+ 
 };
 firebase.initializeApp(config);
 
 
 // Google OAuth Client ID, needed to support One-tap sign-up.
 // Set to null if One-tap sign-up is not supported.
-var CLIENT_ID ='306358878756-otg486cff4069hr6vn0jj3jrkr474i61.apps.googleusercontent.com';
+var CLIENT_ID ='';
